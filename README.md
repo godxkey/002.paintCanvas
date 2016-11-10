@@ -21,6 +21,11 @@
 		3.4width100%,height100%让canvas画板过满屏
 		   (有10%左右的误差，不知从哪儿来的)screen.width和window.width也没用
 		3.5box-sizing:border-box防止盒子溢出
+		3.6关于canvas宽高问题：
+		3.6.1设计canvas.width=window.screen.width;canvas.height=window.screen.height;
+		     (window.screen.width可以缩写为screen.width)
+		3.6.2设计canvas.width=window.innerWidth;canvas.height=window.innerHeight;
+		3.6.3设计canvas{width:100% !important;height:100% !important;}
   
 ###### + 主体代码预览 
 <pre>
